@@ -177,7 +177,7 @@ export const BentoGrid: React.FC = () => {
                           {milestone.role}
                         </h3>
                       </div>
-                      <span className="text-[10px] font-mono  text-emerald-300 sm:text-right bg-slate-900 border border-white/5 px-2.5 py-0.5 rounded-full uppercase tracking-wider">
+                      <span className="text-[10px] font-mono  text-emerald-300 sm:text-right  border-white/5 px-2.5 py-0.5 rounded-full uppercase tracking-wider">
                         {milestone.period}
                       </span>
                     </div>
