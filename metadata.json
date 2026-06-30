@@ -1,0 +1,6 @@
+{
+  "name": "Interactive Developer Portfolio",
+  "description": "A stunning, interactive creative developer portfolio featuring modern text scramble effects, mouse-reactive particle networks, bento grid layout, and magnetic UI controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
