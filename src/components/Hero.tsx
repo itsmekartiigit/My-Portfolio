@@ -19,7 +19,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
   // Redirect to your Google Drive resume
   const handleDownloadResume = () => {
     // 👇 Replace with your actual Google Drive view link
-    const driveLink = 'https://drive.google.com/file/d/YOUR_FILE_ID/view';
+    const driveLink = 'https://drive.google.com/file/d/1t6ylSBVBvpVGZncwu0F4ZadKT9S3d26a/view?usp=sharing';
     window.open(driveLink, '_blank');
   };
 

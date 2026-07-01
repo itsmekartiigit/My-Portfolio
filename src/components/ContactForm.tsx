@@ -266,7 +266,7 @@ export const ContactForm: React.FC = () => {
                         value={formData.name}
                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                         disabled={status === 'sending'}
-                        placeholder="John Doe"
+                        placeholder="your name"
                         className="w-full px-4 py-3 rounded-2xl bg-slate-950 border border-white/5 focus:border-emerald-500/50 focus:ring-1 focus:ring-emerald-500/20 text-white font-sans text-sm outline-none transition-all placeholder:text-slate-600 disabled:opacity-50"
                       />
                     </div>
@@ -281,7 +281,7 @@ export const ContactForm: React.FC = () => {
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                         disabled={status === 'sending'}
-                        placeholder="john@example.com"
+                        placeholder="email@example.com"
                         className="w-full px-4 py-3 rounded-2xl bg-slate-950 border border-white/5 focus:border-emerald-500/50 focus:ring-1 focus:ring-emerald-500/20 text-white font-sans text-sm outline-none transition-all placeholder:text-slate-600 disabled:opacity-50"
                       />
                     </div>
@@ -297,7 +297,7 @@ export const ContactForm: React.FC = () => {
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                       disabled={status === 'sending'}
                       rows={4}
-                      placeholder="Transmission details..."
+                      placeholder="Your message here..."
                       className="w-full px-4 py-3 rounded-2xl bg-slate-950 border border-white/5 focus:border-emerald-500/50 focus:ring-1 focus:ring-emerald-500/20 text-white font-sans text-sm outline-none transition-all placeholder:text-slate-600 resize-none disabled:opacity-50"
                     />
                   </div>
