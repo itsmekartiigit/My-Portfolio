@@ -73,7 +73,7 @@ const TiltCard: React.FC<TiltCardProps> = ({ project, onOpenDetails }) => {
         <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-90" />
         
         {/* Active status badge top right */}
-        <span className="absolute top-4 right-4 px-2.5 py-1 rounded-full bg-emerald-500/15 text-emerald-400 font-mono text-[10px] font-bold border border-emerald-500/35 uppercase tracking-wider backdrop-blur-sm">
+        <span className="absolute top-4 right-4 px-2.5 py-1 rounded-full bg-white-500/15 text-white font-mono text-[10px] font-bold border borderwhite-500/35 uppercase tracking-wider backdrop-blur-sm">
           active
         </span>
       </div>

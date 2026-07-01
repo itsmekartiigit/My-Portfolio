@@ -9,43 +9,43 @@ export const METRICS: Metric[] = [
 
 export const PROJECTS: Project[] = [
   {
-    id: 'ai-invoice-generator',
-    title: 'AI Invoice Generator',
-    description: 'AI-powered SaaS for generating professional invoices with Gemini AI, managing clients, and tracking payments.',
-    longDescription: 'A modern AI-powered Invoice Generator SaaS Web Application built with the MERN Stack (MongoDB, Express.js, React.js, Node.js) integrated with Gemini AI. This smart invoicing platform generates professional invoices in seconds using AI, manages clients, tracks payments, and provides real-time business insights.',
+    id: 'ems-platform',
+    title: 'EMS Platform',
+    description: 'Employee Leave Management System for streamlining operations and improving efficiency.',
+    longDescription: 'A comprehensive Enterprise Management System built with the MERN Stack (MongoDB, Express.js, React.js, Node.js). This platform helps organizations manage their resources, track performance, and make data-driven decisions.',
     category: 'Web App',
-    image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80',
-    tags: ['AI', 'SaaS', 'MERN', 'Full-Stack', 'Business'],
-    liveUrl: '#',
-    githubUrl: 'https://github.com/itsmekartiigit',
+    image: 'https://d6xcmfyh68wv8.cloudfront.net/learn-content/uploads/2023/11/Employee-Management-System.png',
+    tags: [,'Node.js', 'Express.js', 'React.js', 'MongoDB'],
+    liveUrl: 'https://fullstack-ems-wheat.vercel.app/login',
+    githubUrl: 'https://github.com/itsmekartiigit/Fullstack-EMS',
     featured: true,
     features: [
-      'AI-powered invoice generation from plain text prompts',
-      'Secure user authentication with Clerk',
-      'Client and invoice management dashboard',
-      'Real-time payment tracking (Paid/Unpaid/Overdue)',
-      'Professional invoice templates',
-      'Business insights and analytics'
+      'Admin Login Authentication and Role-Based Access Control',
+      'Employee and leave management dashboard',
+      'Real-time notifications for leave requests and approvals',
+      'Real-time leave tracking (Approved/Rejected/Pending)',
+      'Delete Employees and Manage departments',
+      'employee profile management with personal and professional details'
     ],
     learningOutcomes: [
       'Full-stack SaaS application development with MERN',
-      'Gemini AI integration for intelligent automation',
-      'Secure authentication and user management',
+      'Implementing role-based access control and permissions',
+      'Secure authentication and user management with JWT and bcrypt',
       'RESTful API design with Express.js',
       'Database modeling with MongoDB schemas',
       'Production deployment strategies'
     ],
-    author: 'AI Invoice Generator',
+    author: 'K@rtik',
     status: 'Active',
-    detailedCategory: 'AI'
+    detailedCategory: 'Full-Stack ',
   },
   {
     id: 'lms-platform',
-    title: 'LMS Platform',
+    title: 'LMS Platform (under development)',
     description: 'Complete Learning Management System with course management and user dashboard features.',
     longDescription: 'A fully-featured Learning Management System (LMS) built with the MERN Stack. It empowers instructors to create, manage, and deliver high-quality courses, while providing students with an interactive, rich learning experience including progress tracking, video lectures, and quizzes.',
     category: 'Web App',
-    image: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=800&q=80',
+    image: 'https://img.magnific.com/free-vector/glitch-error-404-page_23-2148105404.jpg?semt=ais_hybrid&w=740&q=80',
     tags: ['Education', 'MERN', 'Full-Stack', 'E-learning'],
     liveUrl: '#',
     githubUrl: 'https://github.com/itsmekartiigit',
@@ -67,40 +67,40 @@ export const PROJECTS: Project[] = [
       'Database query and aggregation pipeline optimization'
     ],
     author: 'LMS Platform',
-    status: 'Active',
+    status: 'Inactive',
     detailedCategory: 'Education'
   },
-  {
-    id: 'resume-builder',
-    title: 'Resume Builder',
-    description: 'AI-powered resume creation platform with professional templates, real-time styling, and print-perfect output.',
-    longDescription: 'A state-of-the-art Resume Builder that guides users through creating polished, industry-standard resumes. Built on the MERN stack and featuring AI-powered sentence polishing, content analysis, and elegant responsive templates that can be customized instantly.',
-    category: 'Web App',
-    image: 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&w=800&q=80',
-    tags: ['AI', 'SaaS', 'MERN', 'Productivity'],
-    liveUrl: '#',
-    githubUrl: 'https://github.com/itsmekartiigit',
-    featured: true,
-    features: [
-      'AI-driven resume text refinement and suggestions',
-      'Real-time visual editor with drag-and-drop sections',
-      'Multiple premium ATS-friendly templates',
-      'Instant PDF generation and download engine',
-      'Custom section configuration (Experience, Education, Skills)',
-      'Public resume sharing links with access statistics'
-    ],
-    learningOutcomes: [
-      'Generating complex PDF templates directly in the client browser',
-      'Using AI models to evaluate and grade resume strength (ATS score)',
-      'Implementing complex state-driven nested forms',
-      'Fine-tuning responsive layouts for print-perfect media css',
-      'Enabling user data export and cloud storage',
-      'Structuring schema models for highly nested JSON records'
-    ],
-    author: 'Resume Builder',
-    status: 'Active',
-    detailedCategory: 'AI / Productivity'
-  },
+  // {
+  //   id: 'resume-builder',
+  //   title: 'Resume Builder',
+  //   description: 'AI-powered resume creation platform with professional templates, real-time styling, and print-perfect output.',
+  //   longDescription: 'A state-of-the-art Resume Builder that guides users through creating polished, industry-standard resumes. Built on the MERN stack and featuring AI-powered sentence polishing, content analysis, and elegant responsive templates that can be customized instantly.',
+  //   category: 'Web App',
+  //   image: 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&w=800&q=80',
+  //   tags: ['AI', 'SaaS', 'MERN', 'Productivity'],
+  //   liveUrl: '#',
+  //   githubUrl: 'https://github.com/itsmekartiigit',
+  //   featured: true,
+  //   features: [
+  //     'AI-driven resume text refinement and suggestions',
+  //     'Real-time visual editor with drag-and-drop sections',
+  //     'Multiple premium ATS-friendly templates',
+  //     'Instant PDF generation and download engine',
+  //     'Custom section configuration (Experience, Education, Skills)',
+  //     'Public resume sharing links with access statistics'
+  //   ],
+  //   learningOutcomes: [
+  //     'Generating complex PDF templates directly in the client browser',
+  //     'Using AI models to evaluate and grade resume strength (ATS score)',
+  //     'Implementing complex state-driven nested forms',
+  //     'Fine-tuning responsive layouts for print-perfect media css',
+  //     'Enabling user data export and cloud storage',
+  //     'Structuring schema models for highly nested JSON records'
+  //   ],
+  //   author: 'Resume Builder',
+  //   status: 'Active',
+  //   detailedCategory: 'AI / Productivity'
+  // },
 ];
 
 export const EXPERIENCES: Experience[] = [

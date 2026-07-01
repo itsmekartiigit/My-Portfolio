@@ -38,7 +38,7 @@ export const BentoGrid: React.FC = () => {
     },
     {
       role: 'DevOps & Cloud Computing',
-      org: 'Self-Directed Learning',
+      org: 'Tutedude',
       period: 'Learning',
       desc: 'Actively studying modern deployment pipelines, containerization, and automation configurations with GitHub Actions, Vercel, and Netlify.',
       icon: Cpu,
@@ -84,7 +84,7 @@ export const BentoGrid: React.FC = () => {
           </motion.div>
 
           {/* Interactive Skill Pills (Screenshot 3 style) */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
@@ -103,7 +103,7 @@ export const BentoGrid: React.FC = () => {
                 {skill.name}
               </button>
             ))}
-          </motion.div>
+          </motion.div> */}
 
           {/* Skill description popover matching the screenshot's clean, minimalist layout */}
           {selectedSkill && (
@@ -177,7 +177,7 @@ export const BentoGrid: React.FC = () => {
                           {milestone.role}
                         </h3>
                       </div>
-                      <span className="text-[10px] font-mono  text-emerald-300 sm:text-right  border-white/5 px-2.5 py-0.5 rounded-full uppercase tracking-wider">
+                      <span className="text-[10px] font-mono  text-emerald-300 sm:text-right  border-white/5 px-2.5py-0.5 rounded-full uppercase tracking-wider">
                         {milestone.period}
                       </span>
                     </div>
